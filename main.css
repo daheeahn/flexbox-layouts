@@ -6,33 +6,31 @@
   list-style: none;
 }
 
-nav {
+body > nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   padding: 15px;
   background-color: rgb(195, 228, 195);
 }
 
-nav ul,
-nav a,
-nav ul li,
-.spacer {
-  display: inline-block;
+body > nav > ul {
+  display: flex;
+  flex-direction: row;
 }
 
-nav ul {
-  list-style: none;
+body > nav > ul > li {
+  padding: 12px;
 }
 
-nav > a {
-  vertical-align: middle;
+footer > nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-
-.spacer {
-  /* Parent width - Logo width - Menu <ul> width */
-  width: calc(100% - 60px - 400px);
-}
-
-nav ul li {
-  margin-left: 24px;
+footer > nav > ul > li {
+  padding: 12px;
 }
 
 main {

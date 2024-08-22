@@ -93,6 +93,42 @@ main {
   margin: 5px;
 }
 
+.gallery-whole-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 500px;
+  background-color: #ddebdf;
+  padding: 10px;
+}
+.gallery-left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 1;
+  padding: 20px;
+  border: 1px solid green;
+  margin-right: 5px;
+}
+.gallery-right-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 4;
+  padding: 20px;
+  gap: 20px;
+  border: 1px solid green;
+}
+.still-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.left-item {
+  width: 100%;
+}
+
 footer {
   padding: 16px;
   background-color: rgb(195, 228, 195);

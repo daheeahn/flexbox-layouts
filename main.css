@@ -59,16 +59,38 @@ main {
   line-height: 25px;
 }
 
-.shoot-left {
-  float: left;
+.shoot-container {
+  display: flex;
+  flex-direction: column;
+}
+.shoot-top {
+  display: flex;
+  flex-direction: row;
+}
+.shoot-bottom {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  border: 5px solid rgb(195, 228, 195);
+  background-color: #ddebdf;
+  margin: 0px 5px;
 }
 
-.shoot-right {
-  float: right;
+.shoot-top-left {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  border: 5px solid rgb(195, 228, 195);
+  margin: 5px;
+  background-color: #ddebdf;
 }
-
-.shoot-shoot-clear-both {
-  clear: both;
+.shoot-top-right {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  border: 5px solid rgb(195, 228, 195);
+  background-color: #ddebdf;
+  margin: 5px;
 }
 
 footer {
